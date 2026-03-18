@@ -15,3 +15,7 @@ USAGE
 - Drag the white corner handle to resize
 - Press Enter to save and close
 - Press Esc to cancel without saving
+
+
+
+<img width="1912" height="1073" alt="image" src="https://github.com/user-attachments/assets/74d088c0-dfae-4115-9083-813f35cf789a" />
