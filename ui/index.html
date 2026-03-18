@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wokn-watermark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="watermark-wrapper">
+        <img id="watermark-img" src="../watermark.png" draggable="false" />
+    </div>
+
+    <div id="editor-overlay">
+        <div id="editor-hint">
+            <span>Drag to move &nbsp;·&nbsp; Drag corner to resize &nbsp;·&nbsp; <kbd>Enter</kbd> Save &nbsp;·&nbsp; <kbd>Esc</kbd> Cancel</span>
+        </div>
+        <div id="watermark-editor">
+            <img id="editor-img" src="../watermark.png" draggable="false" />
+            <div id="resize-handle"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
